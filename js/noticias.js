@@ -1,4 +1,4 @@
-console.log("hola")
+
 // Función para cargar las noticias desde el archivo JSON
 const cargarNoticias = () => {
   // Usamos fetch para obtener el archivo JSON
