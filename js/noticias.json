@@ -1,0 +1,17 @@
+[
+    {
+      "titulo": "Vehiculos Renault Electricos",
+      "descripcion": "Calidad y Mejoria en vehiculos.",
+      "enlace": "https://www.renault.es/"
+    },
+    {
+      "titulo": "Noticia 2",
+      "descripcion": "Descripción de la noticia 2.",
+      "enlace": "https://ejemplo.com/noticia2"
+    },
+    {
+      "titulo": "Noticia 3",
+      "descripcion": "Descripción de la noticia 3.",
+      "enlace": "https://ejemplo.com/noticia3"
+    }
+  ]

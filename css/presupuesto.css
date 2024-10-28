@@ -1,0 +1,48 @@
+.main-form {
+    width: 800px;
+}
+
+.main-form {
+    h4 {
+        text-decoration: underline;
+    }
+}
+
+
+.field {
+    margin-bottom: 15px;
+}
+
+.extra {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.extras div, .productos div {
+    display: flex;
+}
+
+.productos div {
+    cursor: pointer;
+}
+
+.productos div label:hover {
+    cursor: pointer;
+}
+
+.extras div :hover {
+    cursor: pointer;
+}
+
+.conditions {
+    display: flex;
+}
+
+.conditions label {
+    margin-right: 8px;
+}
+
+.conditions :hover  {
+    cursor: pointer;
+}

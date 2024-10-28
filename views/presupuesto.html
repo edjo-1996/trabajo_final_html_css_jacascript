@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- archivos css, estilos principales -->
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/head.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/presupuesto.css">
+
+    <!-- Título de la página -->
+    <title>Contacto</title>
+</head>
+<body>
+    <main>
+        <!-- sección menu de navegación -->
+        <div class="menu">
+            <!-- Logo y enlaces de navegación -->
+            <a href="#" class="logo">VENECAR</a>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a class="active" href="presupuesto.html">Presupuestos</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </div>
+
+
+        <!-- contenido principal -->
+        <div class="contenedor">
+            <!-- Título del formulario -->
+            <h2>Formulario de solicitud</h2>
+            <div class="main-form">
+
+                <!-- Sección de datos personales -->
+                <div class="datos">
+                    <h4>Datos</h4>
+                    <div class="field">
+                        <label for="name">Nombre</label>
+                        <input id="name" type="text">
+                    </div>
+                    <div class="field">
+                        <label for="surname">Apellidos</label>
+                        <input id="surname" type="text">
+                    </div>
+                    <div class="field">
+                        <label for="phone">Teléfono de contacto</label>
+                        <input id="phone" type="text">
+                    </div>
+                    <div class="field">
+                        <label for="email">Email</label>
+                        <input id="email" type="text">
+                    </div>
+                </div>
+
+                <!-- Sección de selección de presupuesto -->
+                <div class="presupuesto">
+                    <h4>Presupuesto</h4>
+
+                    <!-- Lista de productos con checkbox -->
+                    <div class="field">
+                        <label for="name">Elige los productos que desea comprar</label>
+
+                        <div class="productos">
+                            <!-- Producto 1 -->
+                            <div>
+                                <input class="product" type="checkbox" id="producto1" data-id="001" data-product="Toyota Corolla 2024" data-price="20000">
+                                <label for="producto1">Toyota Corolla 2024 (20.000€)</label>
+                            </div>
+                            <!-- Producto 2 -->
+                            <div>
+                                <input class="product" type="checkbox" id="producto2" data-id="002" data-product="ford fiesta nuevo" data-price="9500">
+                                <label for="producto2">Ford Fiesta nuevo (9.500€)</label>
+                            </div>
+                            <!-- Producto 3 -->
+                            <div>
+                                <input class="product" type="checkbox" id="producto3" data-id="003" data-product="furgon grande toyota" data-price="19850">
+                                <label for="producto3">Furgon toyota (19.850€)</label>
+                            </div>
+                            <!-- Productos restantes, puedes agregar el data-id y data-price donde falte -->
+                            <div>
+                                <input class="product" type="checkbox" id="producto4" data-id="004" data-product="Nissan Sentra 2024" data-price="19890">
+                                <label for="producto4">Nissan Sentra 2024 (19.890€)</label>
+                            </div>
+                            <div>
+                                <input class="product" type="checkbox" id="producto5" data-id="005" data-product="Renault Electrico" data-price="25000">
+                                <label for="producto5">Renault Electrico (25.000€)</label>
+                            </div>
+                            <div>
+                                <input class="product" type="checkbox" id="producto6" data-id="006" data-product="Furgon Renault" data-price="17800">
+                                <label for="producto6">Furgon Renault (17.800€)</label>
+                            </div>
+                            <div>
+                                <input class="product" type="checkbox" id="producto7" data-id="007" data-product="Renault Basic" data-price="11000">
+                                <label for="producto7">Renault Basic (11.000€)</label>
+                            </div>
+                            <div>
+                                <input class="product" type="checkbox" id="producto8" data-id="008" data-product="Seat Leon" data-price="17900">
+                                <label for="producto8">Seat Leon ultima version (17.900€)</label>
+                            </div>
+                            <div>
+                                <input class="product" type="checkbox" id="producto9" data-id="009" data-product="Toyota Yaris Azul" data-price="19890">
+                                <label for="producto9">Toyota Yaris Azul (19.890€)</label>
+                            </div>
+                            <div>
+                                <input class="product" type="checkbox" id="producto10" data-id="010" data-product="Hiunday I20" data-price="9500">
+                                <label for="producto10">Hiunday I20 (9.500€)</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Plazos de entrega -->
+                    <div class="field">
+                        <label for="plazos">Plazos de entrega en meses</label>
+                        <input id="plazos" type="number" value="0">
+                    </div>
+
+                    <!-- Selección de extras -->
+                    <div class="field">
+                        <label for="phone">Elige los extras para el producto</label>
+                        <div class="extras">
+                            <div>
+                                <input class="input-extras" type="checkbox" id="aire" data-extra="2000">
+                                <label for="aire">Aire Acondicionado</label>
+                            </div>
+                            <div>
+                                <input class="input-extras" type="checkbox" id="llantas" data-extra="800">
+                                <label for="llantas">Llantas 18'</label>
+                            </div>
+                            <div>
+                                <input class="input-extras" type="checkbox" id="camaras" data-extra="1000">
+                                <label for="camaras">Cámara trasera</label>
+                            </div>
+                            <div>
+                                <input class="input-extras" type="checkbox" id="sensores" data-extra="400">
+                                <label for="sensores">Sensores de aparcamiento</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Campo para el presupuesto estimado -->
+                    <div class="field">
+                        <label for="total">Presupuesto estimado</label>
+                        <input id="total" type="text" value="0">
+                    </div>
+                </div>
+
+                <!-- Sección de aceptación de condiciones y envío -->
+                <div class="condiciones_submit">
+                    <h4>Aceptación de condiciones y envío de presupuesto</h4>
+                    <!-- Aceptación de condiciones -->
+                    <div class="field conditions">
+                        <label for="condiciones">He leído la política de privacidad</label>
+                        <input type="checkbox" id="condiciones">
+                    </div>
+                    <!-- Botón de envío -->
+                    <div class="field">
+                        <input id="buttonSubmit" type="submit" class="a-button">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Redes sociales -->
+                <div class="social-media">
+                    <a href="https://www.facebook.com" target="_blank"><img alt="facebook" src="../images/imagen_facebook.png" width="24" height="24"></a>
+                    <a href="https://www.instagram.com" target="_blank"><img alt="instagram" src="../images/imagen_instagram.jpeg" width="24" height="24"></a>
+                    <a href="https://www.twitter.com" target="_blank"><img alt="twitter" src="../images/imagen_X.png" width="24" height="24"></a>
+                </div>
+                <!-- Copyright -->
+                <div class="copyright">
+                    &copy; 2024 VENECAR
+                </div>
+            </div>
+        </div>
+        <!-- Dirección y legal -->
+        <div class="address">
+            Calle Sorolla  Nº 6, Santa Cruz de Tenerife, 38002
+        </div>
+        <div class="legal">
+            Condiciones de Uso:
+            El acceso y uso de este sitio web están sujetos a las siguientes condiciones. Al acceder y navegar por este sitio web, usted acepta estas condiciones sin reservas. Si no está de acuerdo con estas condiciones, por favor absténgase de utilizar este sitio.
+        </div>
+    </footer>
+
+    <!-- Archivo JS para manejar la lógica del presupuesto -->
+    <script src="../js/presupuesto.js"></script>
+
+</body>
+</html>
