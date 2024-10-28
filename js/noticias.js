@@ -2,7 +2,7 @@
 // Función para cargar las noticias desde el archivo JSON
 const cargarNoticias = () => {
   // Usamos fetch para obtener el archivo JSON
-  fetch('/js/noticias.json')
+  fetch('/trabajo_final_html_css_jacascript/js/noticias.json')
     .then(response => {
 
 
